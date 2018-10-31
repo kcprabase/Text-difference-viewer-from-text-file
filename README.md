@@ -1,4 +1,4 @@
-# Text-difference-viewer-from-text-file
+# Text-difference-viewer with Longest Common Subsequence and Shorted Middle snake
 This project is a poc of Longest common subsequence and Shortest Middle Snake algorighm. (The divide and conquer methods to solve complex and time consuming computer problems)
 
 
