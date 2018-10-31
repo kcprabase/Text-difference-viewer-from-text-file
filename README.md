@@ -19,3 +19,4 @@ Also, this was one of the first projects I did in C#.net. Thats why the Web form
 - Inline and Side by side difference view
 - Navigator to go directly to differences
 - Collapse unchanged text portions
+- Number of insertion and deletion
