@@ -1,0 +1,309 @@
+﻿body {
+    
+}
+
+.paraLeft {
+  float: left;
+  width: 45%;
+}
+.paraRight {
+  float: right;
+  width: 45%;
+}
+
+#wrapper
+{
+  width:98%;
+  height:96%;
+  margin: 0 auto;
+  
+  
+  border:5px solid #006666;
+  background-color:#eee;  
+  position:fixed;  
+  border-bottom:5px solid #006666;
+}
+
+#footer
+{
+    height:3%;
+    
+    border: 3px solid #e5e5e5;    
+    background-color:#eed;
+}
+#header
+{
+    height:8%;
+    border: 3px dashed #e3e3e3;    
+    font-family:Nyala;
+    font-size-adjust:initial;
+    font-style:italic;
+    font-size:60px;    
+    text-align:center;
+    color:#006699;
+}
+
+
+#radio
+{
+    height: 20px;
+    border: 3px solid #e3e3e3;    
+    background-color:#eed;
+}
+
+
+
+#content
+{
+    height:500px;
+    overflow:auto;
+    
+    
+}
+
+/*#oldFileView{
+    float: left;
+    overflow:auto;
+    width:47%;
+    }
+#newFileView{
+    float: right;
+    overflow:auto;
+    width:47%;
+   
+}*/
+
+#load{
+    width:303px;
+    height:20px;
+    padding-right: 5px;
+    z-index:9999;
+    background: url("gif/progress-bar.gif") no-repeat
+}
+
+#container {
+    
+   height:75%;
+    overflow: auto;
+    width : 99%;
+}
+
+.oldFileView{
+    /*float: left;*/
+    height: 98%;
+    width: 98%;
+    overflow:auto;
+    border:groove;
+    white-space:pre;
+}
+.newFileView{
+    float: right;
+    height: 98%;
+    width: 49%;
+    overflow:auto;
+    border:groove;
+    white-space: pre;
+    
+}
+.diffBody{
+    overflow:auto;
+    border:groove;
+    width:99%;
+    height:98%;
+    /*position:relative;*/
+    white-space:pre;
+}
+.colStyle {
+    /*word-wrap: break-word;*/
+    max-width: 50%;
+    overflow: scroll;
+}
+.rowStyle {
+    width:100%;
+}
+
+
+BODY, TD, INPUT, TEXTAREA, SELECT 
+   {
+     FONT-FAMILY: Arial,Verdana; 
+     FONT-SIZE: 9pt; 
+     COLOR: black;
+
+}
+
+ TABLE {  BORDER-COLLAPSE:collapse;
+    margin-bottom: 0px;
+}
+
+TD {padding-right:2px; FONT-FAMILY: Monospace}
+.i {
+    COLOR:black; BACKGROUND-COLOR:#dfd;
+    /*width:96%;*/
+}
+.iSpec {
+    COLOR:black; BACKGROUND-COLOR:#80FF80
+
+}
+.d {COLOR:black; BACKGROUND-COLOR:#ffecec;
+    /*width:96%;*/
+}
+.dSpec {COLOR:black; BACKGROUND-COLOR:#FF8080;
+    text-decoration: line-through;
+}
+.alignDiv{
+  display: inline-block;
+  width:49%;
+}
+.dForSideView {
+COLOR:black; BACKGROUND-COLOR:#ffecec;
+width:46%;
+    border-right:groove;
+    word-wrap:break-word;
+    max-width:98%;
+    }
+.iForSideView {
+COLOR:black; BACKGROUND-COLOR:#dfd;
+width:46%;
+    border-right:groove;
+    word-wrap:break-word;
+    max-width:98%;
+    }
+pre{
+     border-radius: 0;
+    border-width: 0;
+    background: 0 0;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+    /*white-space: pre;*/
+    word-wrap: normal;
+    line-height: inherit;
+    color: inherit;
+    z-index: 2;
+    /*position: relative;*/
+    overflow: visible;
+    -webkit-tap-highlight-color: transparent;
+    max-width:98%;
+    word-wrap:break-word;
+    white-space:pre-wrap;
+
+}
+.tdText{
+    width:46%;
+    border-right:groove;
+    word-wrap:break-word;
+    max-width:98%;
+}
+.tdTextA{
+    background-color:#ffecec;
+    width:46%;
+    border-right:groove;
+    word-wrap:break-word;
+    max-width:98%;
+}
+.tdTextB{
+    background-color:#dfd;
+    width:46%;
+    border-right:groove;
+    word-wrap:break-word;
+    max-width:98%;
+}
+.tdTextBlank {
+    width:46%;
+    border-right:groove;
+    word-wrap:break-word;
+    max-width:98%;
+    background-color:#d3d3d3;
+}
+.inText {
+    width:96%;
+}
+
+.idButton{
+    background-color:#d3d3d3;
+    border-color:#d3d3d3;
+    width:4%;
+    border:groove;
+    }
+#myTab{
+     table-layout:fixed;
+     width:98%;
+     word-wrap:break-word;
+     border-top-style:groove;
+     border-top-color:#d3d3d3;
+}
+span
+{
+    word-wrap:break-word;
+    white-space:pre-wrap;
+    max-width:inherit;
+}
+
+.linkButton {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.highlighted {
+border: groove 2px #d3d3d3;;
+background:#ccc;
+}
+
+
+/*
+    CSS below this not used currently
+    
+    
+    tr.active {
+    background:#ccc;
+}*/
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
