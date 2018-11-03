@@ -14,6 +14,8 @@ This project was completed by me during the final year of my university.
 Working with this was really special because I could actually create a proof of concept for algorith we were learning in class.
 Also, this was one of the first projects I did in C#.net. Thats why the Web forms ;) 
 
+I understand that design pattern for UI part may not have been that good in this. But the point of this project is to show the use case of the library and boundless ways to innovate and optimize for our purpose.
+
 # Usability enhancement include
 - Text file upload
 - Inline and Side by side difference view
