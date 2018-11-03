@@ -20,3 +20,19 @@ Also, this was one of the first projects I did in C#.net. Thats why the Web form
 - Navigator to go directly to differences
 - Collapse unchanged text portions
 - Number of insertion and deletion
+- Optimized with LCS and SMS algorithm to work with very large files
+
+# Screenshots
+- Inline view
+![](screenshots/inline.PNG)
+
+- Side by side view
+![](screenshots/sidebyside.PNG)
+
+- Large text
+![](screenshots/difference.PNG)
+
+
+Author
+------
+Prabesh KC
